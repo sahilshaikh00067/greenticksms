@@ -349,7 +349,7 @@ const Navbar = () => {
           transition={{ duration: 7, repeat: Infinity, ease: "linear" }}
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(90deg, #4f46e5, #0891b2, #6366f1, #0891b2, #4f46e5)",
+            background: "linear-gradient(90deg, #46e563, #44b208, #63f16f, #08b26e, #56e546)",
             backgroundSize: "300% 100%",
           }}
         />
