@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/Images/greenlogo.png";
+import greenlogo from "../assets/Images/greenlogo.png";
 import google from "../assets/Images/google.png";
 import meta from "../assets/Images/meta.png";
 
@@ -13,7 +13,7 @@ export default function Footer() {
 
         {/* LEFT - LOGO + PARTNER BADGES */}
         <div>
-          <img src={logo} alt="Green Tick SMS" className="h-20 object-contain" />
+          <img src={greenlogo} alt="Green Tick SMS" className="h-29 object-contain" />
 
           <div className="flex gap-4 mt-8">
             <div className="border border-gray-200 rounded-xl px-5 py-4 flex flex-col items-center justify-center w-[250px] h-[100px] shadow-sm">

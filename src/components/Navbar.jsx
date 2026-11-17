@@ -388,14 +388,14 @@ const Navbar = () => {
         }}
         className="bg-white/95 backdrop-blur-xl sticky top-0 z-50 border-b border-gray-100/80"
       >
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 h-16 lg:h-[60px] flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 h-18 lg:h-[60px] flex items-center justify-between">
 
           {/* LOGO */}
           <Link to="/" className="shrink-0">
             <img
               src="/greenlogo.png"
               alt="Logo"
-              className="h-8 sm:h-10 w-auto object-contain"
+              className="h-21 sm:h-22 w-auto object-contain"
             />
           </Link>
 
