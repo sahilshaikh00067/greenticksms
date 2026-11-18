@@ -95,7 +95,7 @@ const MultiChannelCampaigns = () => {
                 </div>
             </section>
 
-            <section className="bg-[#eef7fc] py-6 lg:py-12">
+            <section className="bg-[#f2fcee] py-6 lg:py-12">
                 <div className="max-w-8xl mx-15 px-2 lg:px-8">
 
                     {/* Heading */}
@@ -115,7 +115,7 @@ const MultiChannelCampaigns = () => {
                     <div className="flex justify-center mb-6">
                         <Link
                             to="/contact"
-                            className="bg-[#1d6387] hover:bg-[#0c4d61] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+                            className="bg-[#1d8732] hover:bg-[#0c4d61] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300"
                         >
                             Get Your Free Demo Now
                         </Link>
@@ -154,7 +154,7 @@ const MultiChannelCampaigns = () => {
             </section>
             <MultiClick />
 
-            <section className="bg-[#eef7fc] py-12 lg:py-12">
+            <section className="bg-[#f2fcee] py-12 lg:py-12">
                 <div className="max-w-7xl mx-auto px-2 lg:px-8">
 
                     {/* Heading */}

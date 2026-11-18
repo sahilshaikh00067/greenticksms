@@ -102,7 +102,7 @@ const FAQ = () => {
                                     className="w-full flex items-center justify-between px-7 py-10 text-left"
                                 >
                                     <span
-                                        className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#335491]" : "text-gray-800"
+                                        className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#339135]" : "text-gray-800"
                                             }`}
                                     >
                                         {faq.question}

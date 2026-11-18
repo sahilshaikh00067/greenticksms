@@ -25,34 +25,30 @@ import rcs18 from "../assets/Images/rcs18.png";
 
 
 import Clients from './Clients';
-import client1 from "../assets/Images/client1.webp";
-import client2 from "../assets/Images/client2.jpeg";
-import client3 from "../assets/Images/client3.webp";
-import client4 from "../assets/Images/client4.webp";
-import client5 from "../assets/Images/client5.webp";
-import client6 from "../assets/Images/client6.webp";
-import client7 from "../assets/Images/client7.webp";
-import client8 from "../assets/Images/client8.webp";
-import client9 from "../assets/Images/client9.webp";
-import client10 from "../assets/Images/client10.webp";
-import client11 from "../assets/Images/client11.webp";
+
+import client12 from "../assets/Images/client12.jpeg";
+import client13 from "../assets/Images/client13.jpeg";
+import client14 from "../assets/Images/client14.jpeg";
+import client15 from "../assets/Images/client15.jpeg";
+import client16 from "../assets/Images/client16.jpeg";
+import client17 from "../assets/Images/client17.webp";
+import client18 from "../assets/Images/client18.webp";
+import client19 from "../assets/Images/client19.webp";
 import SuccessStories from './Successstories';
 import BookMeeting from './Bookmeeting';
 
 
 
 const logos = [
-    client1,
-    client2,
-    client3,
-    client4,
-    client5,
-    client6,
-    client7,
-    client8,
-    client9,
-    client10,
-    client11,
+  client12,
+  client13,
+  client14,
+  client15,
+  client16,
+  client17,
+  client18,
+  client19,
+
 ];
 
 const solutions = [
@@ -417,7 +413,7 @@ export default function RCS() {
                                     {group.map((solution, index) => (
                                         <div
                                             key={index}
-                                            className="bg-gradient-to-br from-[#a5cde3] via-[#a2e5f9] to-[#447592]
+                                            className="bg-gradient-to-br from-[#b3e3a5] via-[#c6f9a2] to-[#689244]
                 rounded-[30px]
                 p-8
                 h-[580px]
@@ -451,7 +447,7 @@ export default function RCS() {
                 <div className="max-w-9xl mx-15">
 
                     {/* Badge */}
-                    <span className="inline-block bg-[#d7ebef] text-[#1d507a] text-sm font-semibold uppercase px-3 py-1 mb-8">
+                    <span className="inline-block bg-[#e2efd7] text-[#2d7a1d] text-sm font-semibold uppercase px-3 py-1 mb-8">
                         RCS MESSAGING
                     </span>
 
@@ -474,7 +470,7 @@ export default function RCS() {
                                             className="w-full flex items-center justify-between py-5 text-left group"
                                         >
                                             <span
-                                                className={`text-[20px] font-semibold transition-colors duration-200 ${isOpen ? "text-[#306a99]" : "text-[#062d4e]"
+                                                className={`text-[20px] font-semibold transition-colors duration-200 ${isOpen ? "text-[#499930]" : "text-[#062d4e]"
                                                     }`}
                                             >
                                                 {feature.title}
@@ -599,8 +595,8 @@ export default function RCS() {
                                         key={i}
                                         onClick={() => setActive(i)}
                                         className={`px-5 py-2 rounded-full text-[15px] font-semibold border transition-all duration-300 ${active === i
-                                            ? "bg-[#326594] text-white border-[#326594] shadow-lg"
-                                            : "bg-white text-[#326594] border-[#6296c8] hover:bg-green-50"
+                                            ? "bg-[#399432] text-white border-[#399432] shadow-lg"
+                                            : "bg-white text-[#399432] border-[#6296c8] hover:bg-green-50"
                                             }`}
                                     >
                                         {tab.label}
@@ -613,7 +609,7 @@ export default function RCS() {
                                 key={active}
                                 style={{ animation: "sceneFadeIn 0.4s ease-out" }}
                             >
-                                <h3 className="text-[#326594] text-[20px] font-semibold tracking-widest uppercase mb-4">
+                                <h3 className="text-[#399432] text-[20px] font-semibold tracking-widest uppercase mb-4">
                                     {tabs[active].title}
                                 </h3>
                                 <p className="text-gray-700 text-[18px] leading-relaxed">
@@ -690,7 +686,7 @@ export default function RCS() {
                                         className="w-full flex items-center justify-between px-7 py-10 text-left"
                                     >
                                         <span
-                                            className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#335491]" : "text-gray-800"
+                                            className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#339135]" : "text-gray-800"
                                                 }`}
                                         >
                                             {faq.question}

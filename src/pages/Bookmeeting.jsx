@@ -6,7 +6,7 @@ export default function BookMeeting() {
     return (
         <section
             className="w-full overflow-hidden relative"
-            style={{ background: "#1a2b6b" }}
+            style={{ background: "#1a6b29" }}
         >
             {/* GRID DOT PATTERN OVERLAY */}
             <div

@@ -5,31 +5,27 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 // CLIENT LOGOS
-import client1 from "../assets/Images/client1.webp";
-import client2 from "../assets/Images/client2.jpeg";
-import client3 from "../assets/Images/client3.webp";
-import client4 from "../assets/Images/client4.webp";
-import client5 from "../assets/Images/client5.webp";
-import client6 from "../assets/Images/client6.webp";
-import client7 from "../assets/Images/client7.webp";
-import client8 from "../assets/Images/client8.webp";
-import client9 from "../assets/Images/client9.webp";
-import client10 from "../assets/Images/client10.webp";
-import client11 from "../assets/Images/client11.webp";
+import client12 from "../assets/Images/client12.jpeg";
+import client13 from "../assets/Images/client13.jpeg";
+import client14 from "../assets/Images/client14.jpeg";
+import client15 from "../assets/Images/client15.jpeg";
+import client16 from "../assets/Images/client16.jpeg";
+import client17 from "../assets/Images/client17.webp";
+import client18 from "../assets/Images/client18.webp";
+import client19 from "../assets/Images/client19.webp";
+
 import vid from "../assets/Images/vid.png";
 
 const logos = [
-  client1,
-  client2,
-  client3,
-  client4,
-  client5,
-  client6,
-  client7,
-  client8,
-  client9,
-  client10,
-  client11,
+  client12,
+  client13,
+  client14,
+  client15,
+  client16,
+  client17,
+  client18,
+  client19,
+
 ];
 
 const stats = [

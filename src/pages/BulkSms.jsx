@@ -404,7 +404,7 @@ export default function BulkSms() {
                     {/* RIGHT SIDE IMAGE */}
                     <div className="w-full">
                         <img
-                            src={BulkSms1}
+                            src={bulksms1}
                             alt="Bulk SMS Platform"
                             className="w-full h-auto object-cover rounded-2xl"
                         />
@@ -434,7 +434,7 @@ export default function BulkSms() {
                             {loopedSolutions.map((solution, index) => (
                                 <div
                                     key={`${solution.title}-${index}`}
-                                    className="shrink-0 w-[450px] md:w-[450px] bg-gradient-to-br from-[#eef7fc] via-[#d9edf8] to-[#c5e3f4] rounded-2xl p-20 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"                                >
+                                    className="shrink-0 w-[450px] md:w-[450px] bg-gradient-to-br from-[#f2fcee] via-[#e1f8d9] to-[#d5f4c5] rounded-2xl p-20 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"                                >
                                     <h3 className="text-[29px] text-center font-semibold text-gray-900 mb-5">
                                         {solution.title}
                                     </h3>
@@ -452,13 +452,13 @@ export default function BulkSms() {
                 </div>
             </section>
 
-            <section className="bg-[#eef7fc] py-6 lg:py-19">
+            <section className="bg-[#f2fcee] py-6 lg:py-19">
                 <div className="max-w-8xl mx-15 px-6 lg:px-8">
                     <div className="grid lg:grid-cols-2 gap-20 items-center">
 
                         {/* Left Side */}
                         <div>
-                            <span className="inline-block bg-[#d7ebef] text-[#1d507a] text-sm font-semibold uppercase px-4 py-2 mb-8">
+                            <span className="inline-block bg-[#e2efd7] text-[#2d7a1d] text-sm font-semibold uppercase px-4 py-2 mb-8">
                                 BULK SMS SERVICE PROVIDER
                             </span>
 
@@ -478,7 +478,7 @@ export default function BulkSms() {
 
                             <Link
                                 to="/contact"
-                                className="inline-flex items-center gap-3 px-7 py-2 bg-[#155979] text-white rounded-lg font-semibold hover:bg-[#0e3d5f] transition-all duration-300"
+                                className="inline-flex items-center gap-3 px-7 py-2 bg-[#267915] text-white rounded-lg font-semibold hover:bg-[#0e3d5f] transition-all duration-300"
                             >
                                 Book a Free Demo
                                 <span className="text-xl">›</span>
@@ -559,7 +559,7 @@ export default function BulkSms() {
                 </div>
             </section>
 
-            <section className="bg-[#eef7fc] py-16">
+            <section className="bg-[#f2fcee] py-16">
                 <div className="max-w-8xl mx-15 px-6 lg:px-8">
 
                     {/* Heading */}
@@ -716,7 +716,7 @@ export default function BulkSms() {
                                         className="w-full flex items-center justify-between px-7 py-10 text-left"
                                     >
                                         <span
-                                            className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#335491]" : "text-gray-800"
+                                            className={`text-[19px] font-medium transition-colors duration-200 ${isOpen ? "text-[#339135]" : "text-gray-800"
                                                 }`}
                                         >
                                             {faq.question}

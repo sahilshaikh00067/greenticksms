@@ -157,7 +157,7 @@ export default function Voice() {
             </section>
 
             {/* ===== HOW BUSINESSES USE AUTOMATED VOICE CALLS ===== */}
-            <section className="bg-[#e5f0f7] px-6 md:px-16 py-16 md:py-24">
+            <section className="bg-[#e5f7ea] px-6 md:px-16 py-16 md:py-24">
                 <div className="max-w-7xl mx-15 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="w-full flex justify-center">
                         <img
@@ -206,7 +206,7 @@ export default function Voice() {
                             {loopedSolutions.map((solution, index) => (
                                 <div
                                     key={`${solution.title}-${index}`}
-                                    className="shrink-0 w-[450px] md:w-[440px] bg-gradient-to-br from-[#daebf5] via-[#badcee] to-[#81aec8] rounded-2xl p-20 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                                    className="shrink-0 w-[450px] md:w-[440px] bg-gradient-to-br from-[#daf5da] via-[#bfeeba] to-[#97c881] rounded-2xl p-20 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
                                 >
                                     <h3 className="text-[29px] text-center font-semibold text-gray-900 mb-5">
                                         {solution.title}
@@ -259,7 +259,7 @@ export default function Voice() {
                 </div>
             </section>
 
-            <section className="bg-[#d3e2f0] px-6 md:px-16 py-16 md:py-24">
+            <section className="bg-[#d3f0d4] px-6 md:px-16 py-16 md:py-24">
                 <div className="max-w-7xl mx-15 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                     {/* ===== LEFT: TEXT ===== */}
@@ -309,7 +309,7 @@ export default function Voice() {
                         {industries.map((item, index) => (
                             <div
                                 key={index}
-                                className="bg-[#eef7fc] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300"
+                                className="bg-[#f2fcee] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300"
                             >
                                 {/* Image */}
                                 <div className="mb-6">

@@ -240,7 +240,7 @@ const WhatsAppHero = () => {
                   <h3
                     className={`font-semibold mb-2 ${i === slide.features.length - 1
                       ? "text-[#45d656] text-2xl md:text-3xl"
-                      : "text-[#1e4896] text-lg md:text-xl"
+                      : "text-[##28961e] text-lg md:text-xl"
                       }`}
                   >
                     {feature.title}

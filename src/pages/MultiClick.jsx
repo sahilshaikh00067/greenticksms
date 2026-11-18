@@ -90,7 +90,7 @@ const MultiClick = () => {
                         <button
                             onClick={() => setActiveTab("whatsapp")}
                             className={`px-6 py-3 font-semibold transition-all duration-300 ${activeTab === "whatsapp"
-                                ? "bg-[#0f587a] text-white"
+                                ? "bg-[#0f7a14] text-white"
                                 : "bg-white text-gray-700 hover:bg-gray-50"
                                 }`}
                         >
@@ -100,7 +100,7 @@ const MultiClick = () => {
                         <button
                             onClick={() => setActiveTab("rcs")}
                             className={`px-6 py-3 font-semibold transition-all duration-300 ${activeTab === "rcs"
-                                ? "bg-[#0f587a] text-white"
+                                ? "bg-[#0f7a14] text-white"
                                 : "bg-white text-gray-700 hover:bg-gray-50"
                                 }`}
                         >
@@ -110,7 +110,7 @@ const MultiClick = () => {
                         <button
                             onClick={() => setActiveTab("sms")}
                             className={`px-6 py-3 font-semibold transition-all duration-300 ${activeTab === "sms"
-                                ? "bg-[#0f587a] text-white"
+                                ? "bg-[#0f7a14] text-white"
                                 : "bg-white text-gray-700 hover:bg-gray-50"
                                 }`}
                         >
@@ -124,7 +124,7 @@ const MultiClick = () => {
 
                     {/* Left Side */}
                     <div>
-                        <h2 className="text-4xl md:text-4xl font-semibold text-[#0f587a] leading-tight mb-10">
+                        <h2 className="text-4xl md:text-4xl font-semibold text-[#0f7a14] leading-tight mb-10">
                             {current.title}
                         </h2>
 

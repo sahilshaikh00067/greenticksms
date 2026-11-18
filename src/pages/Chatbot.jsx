@@ -19,7 +19,7 @@ import chatbot16 from "../assets/Images/chatbot16.webp";
 import BookMeeting from "./Bookmeeting";
 
 /* ── BG COLOURS (green theme) ─────── */
-const BG_LIGHT = "#e9f7fc";   // section alternate bg
+const BG_LIGHT = "#eafce9";   // section alternate bg
 const BTN_COLOR = "#47d666";   // primary button
 
 /* ── industries accordion data ──────────────────────────────────────── */
@@ -427,7 +427,7 @@ export default function Chatbot() {
                 <div className="max-w-7xl mx-15">
                     <div
                         className="rounded-3xl px-8 md:px-16 py-16 text-center"
-                        style={{ backgroundColor: "#c8dff0" }}
+                        style={{ backgroundColor: "#cbf0c8" }}
                     >
                         <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">
                             Start building smart chatbots!

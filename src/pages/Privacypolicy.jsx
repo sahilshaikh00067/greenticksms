@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
     <div className="bg-white min-h-screen">
 
       {/* HERO */}
-      <div className="bg-gradient-to-r from-[#1a2b6b] to-[#1d4ed8] py-16 px-6 md:px-16 text-center">
+      <div className="bg-gradient-to-r from-[#1a6b29] to-[#1d4ed8] py-16 px-6 md:px-16 text-center">
         <h1 className="text-4xl md:text-5xl font-semibold text-white">Privacy Policy</h1>
         <p className="mt-4 text-green-200 text-base">Last updated: 2025</p>
       </div>

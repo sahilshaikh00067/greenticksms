@@ -437,14 +437,14 @@ export default function Learn() {
                                         className="w-full flex items-center justify-between text-left gap-4 focus:outline-none"
                                     >
                                         <span
-                                            className={`text-[21px] font-semibold transition-colors duration-200 ${openIndex === i ? "text-[#3a599a]" : "text-[#1a1a2e]"
+                                            className={`text-[21px] font-semibold transition-colors duration-200 ${openIndex === i ? "text-[#5c9a3a]" : "text-[#1a1a2e]"
                                                 }`}
                                         >
                                             {item.title}
                                         </span>
                                         <span
                                             className={`flex-shrink-0 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-300 ${openIndex === i
-                                                ? "border-[#467997] text-[#427093] rotate-180"
+                                                ? "border-[#469751] text-[#529342] rotate-180"
                                                 : "border-gray-300 text-gray-400"
                                                 }`}
                                         >

@@ -46,7 +46,7 @@ const slides = [
     img: home3,
     icon: FaBolt,
     accent: "#47d666",
-    accentLight: "#eef7fc",
+    accentLight: "#f2fcee",
     tag: "RCS",
   },
   {
